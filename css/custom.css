@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px; /* Margens em todos os lados do contêiner */
+}
+
+h1 {
+    color: #ff6600; /* Laranja */
+    margin-bottom: 20px; /* Margem inferior para afastar do formulário */
+}
+
+form {
+    margin: 0; /* Zera as margens do formulário */
+}
+
+label {
+    color: #0099cc; /* Azul claro */
+    display: inline-block; /* Para que a margem funcione */
+    margin-bottom: 5px; /* Margem inferior entre os rótulos */
+    margin-right: 10px; /* Margem direita entre o rótulo e o campo de entrada */
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    padding: 8px;
+    border: 1px solid #0099cc; /* Azul claro */
+    border-radius: 4px;
+    margin-bottom: 10px; /* Margem inferior entre os campos de entrada e o botão */
+}
+
+button {
+    background-color: #ff6600; /* Laranja */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5500; /* Laranja mais escuro */
+}
